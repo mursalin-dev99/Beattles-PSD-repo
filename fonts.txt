@@ -1,0 +1,14 @@
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Oswald', sans-serif;
+
+    font-family: 'Raleway', sans-serif;
+
+
+/*============================================
+        banner css part start here
+==============================================*/
+
+/*============================================
+        banner css part ends here
+==============================================*/

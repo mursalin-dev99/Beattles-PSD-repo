@@ -1,0 +1,102 @@
+/*============================================
+        services css part start here
+==============================================*/
+#services_part{
+    .head_style{
+        margin-top: 60px;
+        h2{
+            text-align: center;
+            text-transform: uppercase;
+            font-family: 'Oswald', sans-serif;
+            font-size: 24px;
+            font-weight: 400;
+            color: #353535;
+        }
+        .bar_image{
+            width: 100%;
+            height: 100%;
+            text-align: left;
+            img{
+                margin-top: -35px;
+                margin-left: 580px;
+                width: 85px;
+            }
+        }
+    }
+    .services_main{
+        display: flex;
+        .col-4{
+            margin: 55px 10px 0 auto;
+            background: #f1f1f1;
+            height: 180px;
+            .serv_body{
+                height: 100%;
+                position: relative;
+                .serv_iconic{
+                    position: absolute;
+                    background: #ffff;
+                    width: 85px;
+                    height: 85px;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    border-radius: 100%;
+                    border: 3px solid #ffff;
+                    .serv_icon{
+                        position: absolute;
+                        background: #f1f1f1;
+                        width: 80px;
+                        height: 80px;
+                        text-align: center; 
+                        border-radius: 100%;
+                        border: 3px solid #f1f1f1;
+                        .serv_iBody{
+                            position: absolute;
+                            background: #f1f1f1;
+                            width: 75px;
+                            height: 75px;
+                            border-radius: 100%;
+                            border: 3px solid #fff;
+                            img{
+                                padding: 15px 5px;
+                            }
+                        }
+                    }
+                }
+                .serv_text{
+                    padding: 50px 20px 20px 20px;
+                    text-align: center;
+                    h3{
+                        font-family: 'Oswald', sans-serif;
+                        font-size: 25px;
+                        font-weight: 500;
+                        text-transform: uppercase;
+                        color: #353535;
+                    }
+                    p{
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 17px;
+                        font-weight: 400;
+                        color: #353535;
+                        line-height: 1.5rem;
+                    }
+                }
+            }
+            .serv_body:hover{
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                transition: .5s;
+                .serv_icon{
+                    transition: .5s;
+                    background: #5bc5f4;
+                    border: 3px solid #5bc5f4;
+                    .serv_iBody{
+                        transition: .5s;
+                        background: #5bc5f4;
+                    }
+                }
+            }
+        } 
+    }
+}
+/*============================================
+        services css part ends here
+==============================================*/

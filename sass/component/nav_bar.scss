@@ -1,0 +1,41 @@
+/*============================================
+        nav bar css part start here
+==============================================*/
+#nav_body{
+    width: 100%;
+    .nav_main{
+        .navbar{
+            height: 80px;
+            padding: 5px 0;
+            a{
+                img{
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            ul{
+                cursor: pointer;
+                li{
+                    margin-left: 10px;
+                    a{
+                        text-align: right;
+                        font-size: 14px;
+                        font-weight: 500;
+                        font-family: 'Raleway', sans-serif;
+                        text-transform: capitalize;
+                        color: #353535;
+                    }
+                }
+                li:hover{
+                    a{
+                        color: #0872b9;
+                        transition: 0.5s;
+                    }
+                }
+            }
+        }
+    }
+}
+/*============================================
+        nav bar css part ends here
+==============================================*/

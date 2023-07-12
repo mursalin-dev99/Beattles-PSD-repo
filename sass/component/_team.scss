@@ -1,0 +1,124 @@
+/*============================================
+        team css part start here
+==============================================*/
+#team_part{
+    .head_style{
+        margin-top: 60px;
+        h2{
+            text-align: center;
+            text-transform: uppercase;
+            font-family: 'Oswald', sans-serif;
+            font-size: 24px;
+            font-weight: 400;
+            color: #353535;
+        }
+        .bar_image{
+            width: 100%;
+            height: 100%;
+            text-align: left;
+            img{
+                margin-top: -35px;
+                margin-left: 600px;
+                width: 85px;
+            }
+        }
+    }
+    .team_body{
+        height: 270px;
+        margin-top: 55px;
+        display: flex;
+        .col-3{
+            margin-right: 10px;
+            .team_main{
+                position: relative;
+                img{
+                    width: 100%;
+                }
+                .team_overlay{
+                    background-color: rgba(0, 0, 0, 0.702);
+                    height: 100%;
+                    width: 30%;
+                    left: 0;
+                    opacity: 0;
+                    position: absolute;
+                    text-align: center;
+                    .team_overlay_item{
+                    // margin-top: 80px;
+                        ul{
+                            padding-left: 0;
+                            margin: 0 15px;
+                            padding-top: 35px;
+                            li{
+                                padding-bottom: 18px;
+                                border-radius: 50%;
+                                border: 1px solid #ffff;
+                                margin: 10px 0;
+                                cursor: pointer;
+                                a{
+                                    padding-top: 18px;
+                                    text-align: center;
+                                    color: #fff;
+                                    font-size: 20px;
+                                }
+                            }
+                            li:hover{
+                                border: 1px solid #5bc5f4;
+                                background: #5bc5f4;
+                                transition: .5s;
+                                a{
+                                    color: #ffff;
+                                    transition: .5s;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .team_text{
+                text-align: center;
+                h3{
+                    color: #353535;
+                    font-family: 'Oswald', sans-serif;
+                    font-size: 25px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    padding-top: 10px;
+                }
+                p{
+                    color: #555555;
+                    font-family: 'Oswald', sans-serif;
+                    font-size: 16px;
+                    font-weight: 500;
+                    text-transform: capitalize;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+        .col-3:last-child{
+            margin-right: 0;
+        }
+        .col-3:hover{
+            .team_main{
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                transition: .5s;
+                .team_overlay{
+                    opacity: 1;
+                    left: 70%;
+                    transition: .5s;
+                }
+            }
+            .team_text{
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                transition: .5s;
+                h3{
+                    color: #5bc5f4;
+                    transition: .5s;
+    
+                }
+            }
+        }
+    }
+}
+/*============================================
+        team css part ends here
+==============================================*/

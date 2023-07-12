@@ -1,0 +1,799 @@
+/*============================================
+        common css part start here
+==============================================*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li, ol, dl {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.clr {
+  clear: both;
+}
+
+.container {
+  max-width: 1320px;
+}
+
+/*============================================
+        common css part ends here
+==============================================*/
+/*============================================
+        all typography css part start here
+==============================================*/
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  line-height: 1.2;
+}
+
+/*============================================
+        all typography css part ends here
+==============================================*/
+/*============================================
+        head bar css part start here
+==============================================*/
+#head_bar {
+  width: 100%;
+  height: 32px;
+  background-color: #0872b9;
+}
+#head_bar .head_bar_body {
+  display: flex;
+}
+#head_bar .head_bar_body .col-6 h4 {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  padding-top: 6px;
+}
+#head_bar .head_bar_body .col-6 ul {
+  text-align: right;
+  padding-top: 2px;
+  cursor: pointer;
+}
+#head_bar .head_bar_body .col-6 ul li {
+  display: inline-block;
+}
+#head_bar .head_bar_body .col-6 ul li a {
+  color: #fff;
+  padding-left: 20px;
+}
+#head_bar .head_bar_body .col-6 ul li:hover a {
+  color: #353535;
+  transition: 0.4s;
+}
+
+/*============================================
+        head bar css part ends here
+==============================================*/
+/*============================================
+        nav bar css part start here
+==============================================*/
+#nav_body {
+  width: 100%;
+}
+#nav_body .nav_main .navbar {
+  height: 80px;
+  padding: 5px 0;
+}
+#nav_body .nav_main .navbar a img {
+  height: 100%;
+  width: 100%;
+}
+#nav_body .nav_main .navbar ul {
+  cursor: pointer;
+}
+#nav_body .nav_main .navbar ul li {
+  margin-left: 10px;
+}
+#nav_body .nav_main .navbar ul li a {
+  text-align: right;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  text-transform: capitalize;
+  color: #353535;
+}
+#nav_body .nav_main .navbar ul li:hover a {
+  color: #0872b9;
+  transition: 0.5s;
+}
+
+/*============================================
+        nav bar css part ends here
+==============================================*/
+/*============================================
+        banner css part start here
+==============================================*/
+#banner_part {
+  width: 100%;
+}
+#banner_part .banner_main {
+  background-image: url(../images/Beatles-banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 675px;
+  position: relative;
+}
+#banner_part .banner_main .ban_overlay {
+  background-color: rgba(0, 0, 0, 0.702);
+  height: 675px;
+}
+#banner_part .banner_main .ban_overlay .ban_text {
+  text-align: right;
+  padding: 160px 0;
+}
+#banner_part .banner_main .ban_overlay .ban_text h2 {
+  font-size: 50px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+#banner_part .banner_main .ban_overlay .ban_text h1 {
+  font-size: 60px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+#banner_part .banner_main .ban_overlay .ban_text p {
+  padding: 30px 0;
+  font-size: 18px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+#banner_part .banner_main .ban_overlay .ban_text a {
+  text-decoration: none;
+  border: 2px solid #fff;
+  padding: 10px 15px;
+  margin-left: 20px;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+#banner_part .banner_main .ban_overlay .ban_text a:hover {
+  background: #0872b9;
+  border-color: #0872b9;
+  transition: 0.5s;
+}
+
+/*============================================
+        banner css part ends here
+==============================================*/
+/*============================================
+        about css part start here
+==============================================*/
+#about_part {
+  width: 100%;
+}
+#about_part .head_style {
+  margin-top: 60px;
+}
+#about_part .head_style h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #353535;
+}
+#about_part .head_style .bar_image {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+}
+#about_part .head_style .bar_image img {
+  margin-top: -35px;
+  margin-left: 600px;
+  width: 85px;
+}
+#about_part .about_body {
+  width: 100%;
+  display: flex;
+}
+#about_part .about_body .col-5 {
+  display: flex;
+}
+#about_part .about_body .col-5 .col-9 {
+  height: 300px;
+}
+#about_part .about_body .col-5 .col-9 .body_img {
+  height: 100%;
+  background: #f1f1f1;
+  -webkit-clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+}
+#about_part .about_body .col-5 .col-9 .body_img img {
+  height: 250px;
+  margin-left: 65px;
+  margin-top: 50px;
+}
+#about_part .about_body .col-5 .col-3 {
+  height: 300px;
+}
+#about_part .about_body .col-5 .col-3 .blank_col {
+  height: 100%;
+  background: #5bc5f4;
+  -webkit-clip-path: polygon(0 0, 4% 0, 19% 100%, 0 100%);
+  clip-path: polygon(0 0, 4% 0, 19% 100%, 0 100%);
+  rotate: -8deg;
+  margin-left: -21px;
+  margin-top: -11px;
+}
+#about_part .about_body .col-7 {
+  padding: 35px 0;
+}
+#about_part .about_body .col-7 p {
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  color: #353535;
+  line-height: 2rem;
+}
+#about_part .about_body .col-7 span {
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  color: #353535;
+  line-height: 2rem;
+}
+
+/*============================================
+        about css part ends here
+==============================================*/
+/*============================================
+        services css part start here
+==============================================*/
+#services_part .head_style {
+  margin-top: 60px;
+}
+#services_part .head_style h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #353535;
+}
+#services_part .head_style .bar_image {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+}
+#services_part .head_style .bar_image img {
+  margin-top: -35px;
+  margin-left: 580px;
+  width: 85px;
+}
+#services_part .services_main {
+  display: flex;
+}
+#services_part .services_main .col-4 {
+  margin: 55px 10px 0 auto;
+  background: #f1f1f1;
+  height: 180px;
+}
+#services_part .services_main .col-4 .serv_body {
+  height: 100%;
+  position: relative;
+}
+#services_part .services_main .col-4 .serv_body .serv_iconic {
+  position: absolute;
+  background: white;
+  width: 85px;
+  height: 85px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+  border: 3px solid white;
+}
+#services_part .services_main .col-4 .serv_body .serv_iconic .serv_icon {
+  position: absolute;
+  background: #f1f1f1;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  border-radius: 100%;
+  border: 3px solid #f1f1f1;
+}
+#services_part .services_main .col-4 .serv_body .serv_iconic .serv_icon .serv_iBody {
+  position: absolute;
+  background: #f1f1f1;
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  border: 3px solid #fff;
+}
+#services_part .services_main .col-4 .serv_body .serv_iconic .serv_icon .serv_iBody img {
+  padding: 15px 5px;
+}
+#services_part .services_main .col-4 .serv_body .serv_text {
+  padding: 50px 20px 20px 20px;
+  text-align: center;
+}
+#services_part .services_main .col-4 .serv_body .serv_text h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #353535;
+}
+#services_part .services_main .col-4 .serv_body .serv_text p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #353535;
+  line-height: 1.5rem;
+}
+#services_part .services_main .col-4 .serv_body:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.5s;
+}
+#services_part .services_main .col-4 .serv_body:hover .serv_icon {
+  transition: 0.5s;
+  background: #5bc5f4;
+  border: 3px solid #5bc5f4;
+}
+#services_part .services_main .col-4 .serv_body:hover .serv_icon .serv_iBody {
+  transition: 0.5s;
+  background: #5bc5f4;
+}
+
+/*============================================
+        services css part ends here
+==============================================*/
+/*============================================
+        portfolio css part start here
+==============================================*/
+#portfolio_part .head_style {
+  margin-top: 60px;
+}
+#portfolio_part .head_style h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #353535;
+}
+#portfolio_part .head_style .bar_image {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+}
+#portfolio_part .head_style .bar_image img {
+  margin-top: -35px;
+  margin-left: 580px;
+  width: 85px;
+}
+#portfolio_part .port_main .col-3 {
+  background: red;
+  height: 220px;
+  width: 220px;
+}
+#portfolio_part .port_main .col-3 .port_body {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/port1.png);
+}
+#portfolio_part .port_main .col-3 .port_body .port_overlay {
+  background-color: rgba(0, 0, 0, 0.702);
+  height: 100%;
+  width: 100%;
+  position: relative;
+  opacity: 0;
+}
+#portfolio_part .port_main .col-3 .port_body .port_overlay .port_icon {
+  text-align: center;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background: rgba(91, 198, 244, 0.2862745098);
+  border-radius: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+#portfolio_part .port_main .col-3 .port_body .port_overlay .port_icon a {
+  padding-top: 13px;
+  color: #fff;
+}
+#portfolio_part .port_main .col-3 .port_body .port_overlay .port_icon:hover {
+  transition: 0.5s;
+  background: #5bc5f4;
+}
+#portfolio_part .port_main .col-3:hover .port_body .port_overlay {
+  transition: 0.5s;
+  opacity: 1;
+}
+#portfolio_part .port_main .port_overlay:hover .port_icon {
+  transition: 0.5s;
+  background: #5bc5f4;
+}
+
+/*============================================
+        portfolio css part ends here
+==============================================*/
+/*============================================
+        team css part start here
+==============================================*/
+#team_part .head_style {
+  margin-top: 60px;
+}
+#team_part .head_style h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #353535;
+}
+#team_part .head_style .bar_image {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+}
+#team_part .head_style .bar_image img {
+  margin-top: -35px;
+  margin-left: 600px;
+  width: 85px;
+}
+#team_part .team_body {
+  height: 270px;
+  margin-top: 55px;
+  display: flex;
+}
+#team_part .team_body .col-3 {
+  margin-right: 10px;
+}
+#team_part .team_body .col-3 .team_main {
+  position: relative;
+}
+#team_part .team_body .col-3 .team_main img {
+  width: 100%;
+}
+#team_part .team_body .col-3 .team_main .team_overlay {
+  background-color: rgba(0, 0, 0, 0.702);
+  height: 100%;
+  width: 30%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+}
+#team_part .team_body .col-3 .team_main .team_overlay .team_overlay_item ul {
+  padding-left: 0;
+  margin: 0 15px;
+  padding-top: 35px;
+}
+#team_part .team_body .col-3 .team_main .team_overlay .team_overlay_item ul li {
+  padding-bottom: 18px;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin: 10px 0;
+  cursor: pointer;
+}
+#team_part .team_body .col-3 .team_main .team_overlay .team_overlay_item ul li a {
+  padding-top: 18px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+#team_part .team_body .col-3 .team_main .team_overlay .team_overlay_item ul li:hover {
+  border: 1px solid #5bc5f4;
+  background: #5bc5f4;
+  transition: 0.5s;
+}
+#team_part .team_body .col-3 .team_main .team_overlay .team_overlay_item ul li:hover a {
+  color: white;
+  transition: 0.5s;
+}
+#team_part .team_body .col-3 .team_text {
+  text-align: center;
+}
+#team_part .team_body .col-3 .team_text h3 {
+  color: #353535;
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+#team_part .team_body .col-3 .team_text p {
+  color: #555555;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+}
+#team_part .team_body .col-3:last-child {
+  margin-right: 0;
+}
+#team_part .team_body .col-3:hover .team_main {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.5s;
+}
+#team_part .team_body .col-3:hover .team_main .team_overlay {
+  opacity: 1;
+  left: 70%;
+  transition: 0.5s;
+}
+#team_part .team_body .col-3:hover .team_text {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.5s;
+}
+#team_part .team_body .col-3:hover .team_text h3 {
+  color: #5bc5f4;
+  transition: 0.5s;
+}
+
+/*============================================
+        team css part ends here
+==============================================*/
+/*============================================
+        testimonial css part start here
+==============================================*/
+#testimonial_part .head_style {
+  margin-top: 260px;
+}
+#testimonial_part .head_style h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #353535;
+}
+#testimonial_part .head_style .bar_image {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+}
+#testimonial_part .head_style .bar_image img {
+  margin-top: -35px;
+  margin-left: 590px;
+  width: 85px;
+}
+#testimonial_part .testimonial_body {
+  margin-top: 40px;
+  display: flex;
+}
+#testimonial_part .testimonial_body .col-6 {
+  margin-right: 10px;
+  text-align: center;
+}
+#testimonial_part .testimonial_body .col-6 .test_img img {
+  width: 90px;
+  height: 90px;
+}
+#testimonial_part .testimonial_body .col-6 .test_text {
+  height: 200px;
+  position: relative;
+  background: #f1f1f1;
+  margin-top: 50px;
+  z-index: 9999;
+}
+#testimonial_part .testimonial_body .col-6 .test_text .test_blank {
+  z-index: -1;
+  position: absolute;
+  background: #f1f1f1;
+  height: 50px;
+  width: 50px;
+  top: -12%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  transform: rotate(45deg);
+}
+#testimonial_part .testimonial_body .col-6 .test_text .test_text_box {
+  padding: 20px 20px 0 20px;
+}
+#testimonial_part .testimonial_body .col-6 .test_text .test_text_box h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  color: #353535;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#testimonial_part .testimonial_body .col-6 .test_text .test_text_box span {
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  color: #353535;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+#testimonial_part .testimonial_body .col-6 .test_text .test_text_box p {
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  color: #353535;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+/*============================================
+        testimonial css part ends here
+==============================================*/
+/*============================================
+        footer css part start here
+==============================================*/
+#footer_part {
+  width: 100%;
+  height: 350px;
+  background: #353535;
+  margin-top: 60px;
+}
+#footer_part .footer_body {
+  display: flex;
+}
+#footer_part .footer_body .col-3 .foot_img {
+  padding-top: 35px;
+}
+#footer_part .footer_body .col-3 .foot_img img {
+  height: 50px;
+  width: 90px;
+}
+#footer_part .footer_body .col-3 .foot_text {
+  padding-top: 25px;
+}
+#footer_part .footer_body .col-3 .foot_text p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  color: #fff;
+  line-height: 1.5rem;
+}
+#footer_part .footer_body .col-3 .foot_text span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  color: #fff;
+  line-height: 1.5rem;
+}
+#footer_part .footer_body .col-3 .foot_contact {
+  padding-top: 35px;
+}
+#footer_part .footer_body .col-3 .foot_contact h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: #fff;
+  line-height: 1.5rem;
+  text-transform: capitalize;
+}
+#footer_part .footer_body .col-3 .contact_details {
+  display: flex;
+  padding: 10px 0;
+}
+#footer_part .footer_body .col-3 .contact_details .contact_icon {
+  background: #5bc5f4;
+  border: 1px solid #5bc5f4;
+  border-radius: 100%;
+  padding: 6px 10px;
+  height: 40px;
+  margin-top: 15px;
+}
+#footer_part .footer_body .col-3 .contact_details .contact_text {
+  line-height: 0rem;
+}
+#footer_part .footer_body .col-3 .contact_details .contact_text a {
+  text-decoration: none;
+}
+#footer_part .footer_body .col-3 .contact_details .contact_text a p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+  line-height: 1rem;
+  padding: 15px 0 0 10px;
+}
+#footer_part .footer_body .col-3 .contact_details .contact_text a span {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+  padding: 15px 0 0 10px;
+}
+#footer_part .footer_body .col-2 .foot_important {
+  padding-top: 35px;
+}
+#footer_part .footer_body .col-2 .foot_important h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: #fff;
+  line-height: 1.5rem;
+  text-transform: capitalize;
+}
+#footer_part .footer_body .col-2 .important_details .important_text {
+  padding: 15px 0;
+  display: flex;
+}
+#footer_part .footer_body .col-2 .important_details .important_text .col-6 a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: capitalize;
+  padding-right: 15px;
+  padding-top: 10px;
+}
+#footer_part .footer_body .col-2 .important_details .important_text .col-6 a:hover {
+  color: #5bc5f4;
+  transition: 0.5s;
+}
+#footer_part .footer_body .col-4 .foot_flicker {
+  padding-top: 35px;
+}
+#footer_part .footer_body .col-4 .foot_flicker h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: #fff;
+  line-height: 1.5rem;
+  text-transform: capitalize;
+}
+#footer_part .footer_body .col-4 .flicker_photos {
+  padding-top: 35px;
+}
+#footer_part .footer_body .col-4 .flicker_photos .flicker_photos_row1 {
+  padding-bottom: 15px;
+  display: flex;
+}
+#footer_part .footer_body .col-4 .flicker_photos .flicker_photos_row1 .col-4 {
+  height: 90px;
+}
+#footer_part .footer_body .col-4 .flicker_photos .flicker_photos_row1 .col-4 .flick_photo img {
+  height: 100%;
+  width: 90px;
+}
+
+/*============================================
+        footer css part ends here
+==============================================*/
+/*============================================
+        copyright css part start here
+==============================================*/
+#copyright_part {
+  width: 100%;
+  height: 45px;
+  background: #555555;
+}
+#copyright_part .copyright_body {
+  text-align: center;
+  padding-top: 12px;
+}
+#copyright_part .copyright_body p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+#copyright_part .copyright_body p span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #5bc5f3;
+  text-transform: capitalize;
+}
+
+/*============================================
+        copyright css part ends here
+==============================================*//*# sourceMappingURL=style.css.map */

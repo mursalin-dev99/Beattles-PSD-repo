@@ -1,0 +1,83 @@
+/*============================================
+        portfolio css part start here
+==============================================*/
+#portfolio_part{
+    .head_style{
+        margin-top: 60px;
+        h2{
+            text-align: center;
+            text-transform: uppercase;
+            font-family: 'Oswald', sans-serif;
+            font-size: 24px;
+            font-weight: 400;
+            color: #353535;
+        }
+        .bar_image{
+            width: 100%;
+            height: 100%;
+            text-align: left;
+            img{
+                margin-top: -35px;
+                margin-left: 580px;
+                width: 85px;
+            }
+        }
+    }
+    .port_main{
+        .col-3{
+            background: red;
+            height: 220px;
+            width: 220px;
+            .port_body{
+                height: 100%;
+                width: 100%;
+                background-image: url(../images/port1.png);
+                .port_overlay{
+                    background-color: rgba(0, 0, 0, 0.702);
+                    height: 100%;
+                    width: 100%;
+                    position: relative;
+                    opacity: 0;
+                    .port_icon{
+                        text-align: center;
+                        position: absolute;
+                        height: 50px;
+                        width: 50px;
+                        background: #5bc6f449;
+                        border-radius: 100%;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        cursor: pointer;
+                        a{
+                            padding-top: 13px;
+                            color: #fff;
+                        }
+                    }
+                    .port_icon:hover{
+                        transition: .5s;
+                        background: #5bc5f4;
+                    }
+                }
+            }
+        }
+        .col-3:hover{
+            .port_body{
+                .port_overlay{
+                    transition: .5s;
+                    opacity: 1;
+                }
+            }
+        }
+        .port_overlay:hover{
+            .port_icon{
+                transition: .5s;
+                background: #5bc5f4;
+            }
+        }
+    }
+}
+
+/*============================================
+        portfolio css part ends here
+==============================================*/

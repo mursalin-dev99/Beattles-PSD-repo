@@ -1,0 +1,148 @@
+/*============================================
+        footer css part start here
+==============================================*/
+#footer_part{
+    width: 100%;
+    height: 350px;
+    background: #353535;
+    margin-top: 60px;
+    .footer_body{
+        display: flex;
+        .col-3{
+            .foot_img{
+                padding-top: 35px;
+                img{
+                    height: 50px;
+                    width: 90px;
+                }
+            }
+            .foot_text{
+                padding-top: 25px;
+                p{
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 13px;
+                    color: #fff;
+                    line-height: 1.5rem;
+                }
+                span{
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 13px;
+                    color: #fff;
+                    line-height: 1.5rem;
+                }
+            }
+        }
+        .col-3{
+            .foot_contact{
+                padding-top: 35px;
+                h3{
+                    font-family: 'Oswald', sans-serif;
+                    font-weight: 500;
+                    font-size: 25px;
+                    color: #fff;
+                    line-height: 1.5rem;
+                    text-transform: capitalize;
+                }
+            }
+            .contact_details{
+                display: flex;
+                padding: 10px 0;
+                .contact_icon{
+                    background: #5bc5f4;
+                    border: 1px solid #5bc5f4;
+                    border-radius: 100%;
+                    padding: 6px 10px;
+                    height: 40px;
+                    margin-top: 15px;
+                }
+                .contact_text{
+                    line-height: 0rem;
+                    a{
+                        text-decoration: none;
+                        p{
+                            font-family: 'Open Sans', sans-serif;
+                            font-weight: 400;
+                            font-size: 15px;
+                            color: #fff;
+                            line-height: 1rem;
+                            padding: 15px 0 0 10px;
+                        }
+                        span{
+                            font-family: 'Open Sans', sans-serif;
+                            font-weight: 400;
+                            font-size: 15px;
+                            color: #fff;                        
+                            padding: 15px 0 0 10px;
+                        }
+                    }
+                }
+            }
+        }
+        .col-2{
+            .foot_important{
+                padding-top: 35px;
+                h3{
+                    font-family: 'Oswald', sans-serif;
+                    font-weight: 500;
+                    font-size: 25px;
+                    color: #fff;
+                    line-height: 1.5rem;
+                    text-transform: capitalize;
+                }
+            }
+            .important_details{
+                .important_text{
+                    padding: 15px 0;
+                    display: flex;
+                    .col-6{
+                        a{
+                            text-decoration: none;
+                            color: #fff;
+                            font-size: 15px;
+                            font-family: 'Open Sans', sans-serif;
+                            text-transform: capitalize;
+                            padding-right: 15px;
+                            padding-top: 10px;
+                        }
+                        a:hover{
+                            color: #5bc5f4;
+                            transition: .5s;
+                        }
+                    }
+                }
+            }
+        }
+        .col-4{
+            .foot_flicker{
+                padding-top: 35px;
+                h3{
+                    font-family: 'Oswald', sans-serif;
+                    font-weight: 500;
+                    font-size: 25px;
+                    color: #fff;
+                    line-height: 1.5rem;
+                    text-transform: capitalize;
+                }
+            }
+            .flicker_photos{
+                padding-top: 35px;
+                .flicker_photos_row1{
+                    padding-bottom: 15px;
+                    display: flex;
+                    .col-4{
+                        height: 90px;
+                        .flick_photo{
+                            img{
+                                height: 100%;
+                                width: 90px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*============================================
+        footer css part ends here
+==============================================*/
